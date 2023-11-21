@@ -1,13 +1,13 @@
 {
-               "name": "secktor-md",
-               "version": "0.0.7",
+               "name": "king-x",
+               "version": "0.0.1",
                "description": "Multi device whatsapp bot by SamPandey001.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name secktor",
-                "stop": "pm2 stop secktor"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name king-x",
+                "stop": "pm2 stop king-x"
                 },
                "author": "SamPandey001",
               "dependencies": {
@@ -50,10 +50,16 @@
                        "path": "^0.12.7",
                        "request": "^2.88.2",
                        "simple-git": "^3.16.1",
-                       "@shineiichijo/marika": "^2.0.3",           
+                       "@shineiichijo/marika": "^2.0.3",  
+                       "api-dylux": "latest",
+                       "@xct007/frieren-scraper": "latest",
+                       "@saipulanuar/tiktok-scraper-ts": "latest",  
+                       "@sl-code-lords/text-pro-me": "latest",
                        "translatte": "^3.0.1",
                        "util": "^0.12.4",           
                        "secktor-pack": "latest",
+                       "fb-info-video":"latest",
+                       "vihangayt-fbdl": "latest",
                        "ytdl-secktor": "latest",
                        "pastebin-js": "latest",
                        "fb-info-video":"^1.0.2",

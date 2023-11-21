@@ -11,11 +11,11 @@ global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '94762327630'
 global.devs = '94762327630';
 global.website = 'https://github.com/Theekshanamax/navi' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/d5b324e7cf6450fc156fc.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/ac185578438c68f4bf911.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'king-x' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'king-x' : process.env.OWNER_NAME,
-  sessionName:  process.env.SESSION_ID === undefined ? "King-x;;;BeijingSmoker" : process.env.SESSION_ID,
+  sessionName:  process.env.SESSION_ID === undefined ? "King-x;;;HerringBygones" : process.env.SESSION_ID,
   author:  'king-x',
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  'king-x',
@@ -25,7 +25,7 @@ module.exports = {
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '971' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
-  HANDLERS:  process.env.PREFIX === undefined ? ['.'] : process.env.PREFIX,
+  HANDLERS:  process.env.PREFIX === undefined ? ['@','.','#','&' ] : process.env.PREFIX,
   warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
   disablepm:  process.env.DISABLE_PM === undefined ? false : process.env.DISABLE_PM,
   levelupmessage:  process.env.LEVEL_UP_MESSAGE === undefined ? false : process.env.LEVEL_UP_MESSAGE,
